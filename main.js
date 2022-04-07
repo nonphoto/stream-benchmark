@@ -39,7 +39,7 @@ function runTest({ name, create, subscribe, split, combine, set }) {
     output = createTest({ split, combine, depth: 10 })(input);
 
   subscribe((value) => {
-    // performance.mark(`${name}:result:${value}`);
+    performance.mark(`${name}:result:${value}`);
   }, output);
 
   performance.mark(start);
