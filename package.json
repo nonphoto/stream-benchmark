@@ -1,0 +1,22 @@
+{
+  "name": "stream-benchmark",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "flyd": "0.2.8",
+    "kefir": "3.8.8",
+    "kefir.atom": "5.5.2",
+    "ramda": "0.28.0",
+    "rxjs": "7.5.5",
+    "s-js": "0.4.9",
+    "xstream": "11.14.0"
+  }
+}
